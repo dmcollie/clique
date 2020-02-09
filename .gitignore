@@ -35,7 +35,5 @@
 yarn-debug.log*
 .yarn-integrity
 .keep
-/.idea
 /bin
 *.lock
-*.iml
