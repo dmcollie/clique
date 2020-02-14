@@ -63,12 +63,12 @@ class CirclesController < ApplicationController
 
   private
     # Use callbacks to share common setup or constraints between actions.
-    def set_circle
-      @circle = Circle.find(params[:id])
-    end
+  def set_circle
+    @circle = Circle.find(params[:id])
+  end
 
     # Never trust parameters from the scary internet, only allow the white list through.
-    def circle_params
-      params.require(:circle).permit(:subject, :name)
-    end
+  def circle_params
+    params.require(:circle).permit(:subject, :name)
+  end
 end

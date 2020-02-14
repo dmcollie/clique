@@ -2,36 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5282c49b-bf60-4543-a61a-392bc552e4b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/care_providers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/care_providers_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/care_providers_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/care_provider.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/member.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/care_providers/_care_provider.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/care_providers/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/care_providers/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/care_providers/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/care_providers/index.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/care_providers/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/care_providers/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/care_providers/show.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20200212183735_create_care_providers.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20200212184406_create_memberships.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20200212190026_add_name_to_patients.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20200214105908_rename_membership_to_member.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/care_providers_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/care_providers.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/members.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/care_provider_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/membership_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/system/care_providers_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/circles_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/circles_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/circle.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/circle.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/patient.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/patient.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/circles/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/circles/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/circles/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/circles/show.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +114,7 @@
       <command value="rails g migration add_name_to_patients name:string" />
     </option>
   </component>
-  <component name="RunManager" selected="Rake.db: migrate">
+  <component name="RunManager" selected="Rails.Development: clique">
     <configuration name="IRB console: clique" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
       <module name="clique" />
       <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
@@ -351,7 +327,8 @@
       <workItem from="1581345187123" duration="897000" />
       <workItem from="1581584776449" duration="88000" />
       <workItem from="1581612448780" duration="690000" />
-      <workItem from="1581677850199" duration="171000" />
+      <workItem from="1581677850199" duration="244000" />
+      <workItem from="1581693053320" duration="687000" />
     </task>
     <task id="LOCAL-00001" summary="Rebuilt project files for RubyMine.">
       <created>1581273934174</created>
@@ -374,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581274030249</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added CareProvider and Circle Member.">
+      <created>1581678076990</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581678076990</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,7 +367,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Rebuilt project files for RubyMine." />
-    <option name="LAST_COMMIT_MESSAGE" value="Rebuilt project files for RubyMine." />
+    <MESSAGE value="Added CareProvider and Circle Member." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CareProvider and Circle Member." />
   </component>
   <component name="WindowStateProjectService">
     <state x="424" y="202" width="1071" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581533381060">
@@ -391,58 +376,60 @@
     </state>
     <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581533381060" />
     <state x="424" y="207" width="1071" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.982@0.23.1920.982" timestamp="1581346100142" />
-    <state x="543" y="142" key="CommitChangelistDialog2" timestamp="1581274030145">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="543" y="152" key="CommitChangelistDialog2" timestamp="1581678076816">
+      <screen x="0" y="23" width="1920" height="982" />
     </state>
     <state x="543" y="142" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1581274030145" />
-    <state width="459" height="135" key="GridCell.Tab.0.bottom" timestamp="1581678039625">
+    <state x="543" y="152" key="CommitChangelistDialog2/0.23.1920.982@0.23.1920.982" timestamp="1581678076816" />
+    <state width="1238" height="176" key="GridCell.Tab.0.bottom" timestamp="1581693755547">
       <screen x="0" y="23" width="1920" height="982" />
     </state>
     <state width="1071" height="204" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581534040136" />
-    <state width="459" height="135" key="GridCell.Tab.0.bottom/0.23.1920.982@0.23.1920.982" timestamp="1581678039625" />
-    <state width="459" height="135" key="GridCell.Tab.0.center" timestamp="1581678039625">
+    <state width="1238" height="176" key="GridCell.Tab.0.bottom/0.23.1920.982@0.23.1920.982" timestamp="1581693755547" />
+    <state width="1238" height="176" key="GridCell.Tab.0.center" timestamp="1581693755546">
       <screen x="0" y="23" width="1920" height="982" />
     </state>
     <state width="1071" height="204" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581534040135" />
-    <state width="459" height="135" key="GridCell.Tab.0.center/0.23.1920.982@0.23.1920.982" timestamp="1581678039625" />
-    <state width="459" height="135" key="GridCell.Tab.0.left" timestamp="1581678039624">
+    <state width="1238" height="176" key="GridCell.Tab.0.center/0.23.1920.982@0.23.1920.982" timestamp="1581693755546" />
+    <state width="1238" height="176" key="GridCell.Tab.0.left" timestamp="1581693755545">
       <screen x="0" y="23" width="1920" height="982" />
     </state>
     <state width="1071" height="204" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581534040135" />
-    <state width="459" height="135" key="GridCell.Tab.0.left/0.23.1920.982@0.23.1920.982" timestamp="1581678039624" />
-    <state width="459" height="135" key="GridCell.Tab.0.right" timestamp="1581678039625">
+    <state width="1238" height="176" key="GridCell.Tab.0.left/0.23.1920.982@0.23.1920.982" timestamp="1581693755545" />
+    <state width="1238" height="176" key="GridCell.Tab.0.right" timestamp="1581693755546">
       <screen x="0" y="23" width="1920" height="982" />
     </state>
     <state width="1071" height="204" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581534040136" />
-    <state width="459" height="135" key="GridCell.Tab.0.right/0.23.1920.982@0.23.1920.982" timestamp="1581678039625" />
-    <state width="459" height="135" key="GridCell.Tab.1.bottom" timestamp="1581678039626">
+    <state width="1238" height="176" key="GridCell.Tab.0.right/0.23.1920.982@0.23.1920.982" timestamp="1581693755546" />
+    <state width="1238" height="176" key="GridCell.Tab.1.bottom" timestamp="1581693755547">
       <screen x="0" y="23" width="1920" height="982" />
     </state>
     <state width="1878" height="304" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581345273539" />
-    <state width="459" height="135" key="GridCell.Tab.1.bottom/0.23.1920.982@0.23.1920.982" timestamp="1581678039626" />
-    <state width="459" height="135" key="GridCell.Tab.1.center" timestamp="1581678039625">
+    <state width="1238" height="176" key="GridCell.Tab.1.bottom/0.23.1920.982@0.23.1920.982" timestamp="1581693755547" />
+    <state width="1238" height="176" key="GridCell.Tab.1.center" timestamp="1581693755547">
       <screen x="0" y="23" width="1920" height="982" />
     </state>
     <state width="1878" height="304" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581345273538" />
-    <state width="459" height="135" key="GridCell.Tab.1.center/0.23.1920.982@0.23.1920.982" timestamp="1581678039625" />
-    <state width="459" height="135" key="GridCell.Tab.1.left" timestamp="1581678039625">
+    <state width="1238" height="176" key="GridCell.Tab.1.center/0.23.1920.982@0.23.1920.982" timestamp="1581693755547" />
+    <state width="1238" height="176" key="GridCell.Tab.1.left" timestamp="1581693755547">
       <screen x="0" y="23" width="1920" height="982" />
     </state>
     <state width="1878" height="304" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581345273537" />
-    <state width="459" height="135" key="GridCell.Tab.1.left/0.23.1920.982@0.23.1920.982" timestamp="1581678039625" />
-    <state width="459" height="135" key="GridCell.Tab.1.right" timestamp="1581678039626">
+    <state width="1238" height="176" key="GridCell.Tab.1.left/0.23.1920.982@0.23.1920.982" timestamp="1581693755547" />
+    <state width="1238" height="176" key="GridCell.Tab.1.right" timestamp="1581693755547">
       <screen x="0" y="23" width="1920" height="982" />
     </state>
     <state width="1878" height="304" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581345273539" />
-    <state width="459" height="135" key="GridCell.Tab.1.right/0.23.1920.982@0.23.1920.982" timestamp="1581678039626" />
+    <state width="1238" height="176" key="GridCell.Tab.1.right/0.23.1920.982@0.23.1920.982" timestamp="1581693755547" />
     <state x="753" y="258" key="RollbackChangesDialog" timestamp="1581532636624">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="753" y="258" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581532636624" />
-    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1581273960919">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="560" y="278" key="Vcs.Push.Dialog.v2" timestamp="1581678078531">
+      <screen x="0" y="23" width="1920" height="982" />
     </state>
     <state x="560" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1581273960919" />
+    <state x="560" y="278" key="Vcs.Push.Dialog.v2/0.23.1920.982@0.23.1920.982" timestamp="1581678078531" />
     <state x="618" y="175" width="683" height="729" key="find.popup" timestamp="1581533353376">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -453,7 +440,7 @@
     <state x="625" y="255" width="670" height="675" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1581534026172" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/clique@Development__clique.rcov" NAME="Development: clique Coverage Results" MODIFIED="1581677861265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="clique" />
+    <SUITE FILE_PATH="coverage/clique@Development__clique.rcov" NAME="Development: clique Coverage Results" MODIFIED="1581693169094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="clique" />
     <SUITE FILE_PATH="coverage/clique@IRB_console__clique.rcov" NAME="IRB console: clique Coverage Results" MODIFIED="1581533278925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="clique" />
     <SUITE FILE_PATH="coverage/clique@Rails_console__clique.rcov" NAME="Rails console: clique Coverage Results" MODIFIED="1581612469885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="clique" />
     <SUITE FILE_PATH="coverage/clique@db__migrate.rcov" NAME="db: migrate Coverage Results" MODIFIED="1581677974067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="clique" />
